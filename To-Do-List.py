@@ -11,19 +11,38 @@ def main():
     print(menu)
 
     while True:
+
+        # Allows user to choose from menu of options
+
         answer = input("What would you like to do?")
 
         if answer == "Add Task" or answer == "1":
             task = input("What task would you like to add?")
-            tasks.append(task)
-        elif answer == "2":
-            remove = input("Which task would you like to remove?")
-        elif answer == "3":
+            task_num = len(tasks) + 1
+            tasks.append((task_num, task))
+        elif answer == "Remove Task" or answer == "2":
+
+            # Displays task neatly
+            for task in tasks:
+                print(task)
+
+            number = int(input("Which number would you like to remove?"))
+
+            # Checks to see if input is vaild & removes task
+            if (1 <= number <= len(tasks)):
+                del tasks[number - 1]
+            else:
+                print("That is not a vaild input. Please try again.")
+                continue
+
+        elif answer == "View List" or answer == "3":
+            print("Here are your current tasks:")
             print(tasks)
-        elif answer == "4":
+        elif answer == "Exit" or answer == "4":
             break
         else:
-            answer = input("That is not a valid input. Please try again.")
+            print("That is not a valid input. Please try again.")
+            continue
         print(tasks)
 
 main()
