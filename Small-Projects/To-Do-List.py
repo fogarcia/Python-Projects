@@ -26,6 +26,10 @@ def main():
             for task in tasks:
                 print(task)
 
+            if not tasks:
+                print("Your to-do list is empty. There are no tasks to remove.")
+                continue
+
             number = int(input("Which number would you like to remove?"))
 
             # Checks to see if input is vaild & removes task
