@@ -12,7 +12,7 @@ def main():
 
     while True:
 
-        # Allows user to choose from menu of options
+        # Allows user to choose from a menu of options
 
         answer = input("What would you like to do?")
 
@@ -35,6 +35,9 @@ def main():
             # Checks to see if input is vaild & removes task
             if (1 <= number <= len(tasks)):
                 del tasks[number - 1]
+
+                # Renumbers tasks if one is removed
+                tasks = [(i + 1, task[1]) for i, task in enumerate(tasks)]
             else:
                 print("That is not a vaild input. Please try again.")
                 continue
