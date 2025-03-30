@@ -1,5 +1,43 @@
 # To Do List
 
+def add_task(tasks):
+    task = input("What task would you like to add?")
+
+    # Checks the task for empty space
+    if task.strip() == "":
+        print("This is not a vaild response. Please try again.")
+        return
+
+    task_num = len(tasks) + 1
+    tasks.append((task_num, task))
+
+def remove_task(tasks):
+
+    # Displays task neatly
+    for task in tasks:
+        print(task)
+
+    if not tasks:
+        print("Your to-do list is empty. There are no tasks to remove.")
+        return
+
+    number = int(input("Which number would you like to remove?"))
+
+    # Checks to see if input is vaild & removes task
+    if (1 <= number <= len(tasks)):
+        del tasks[number - 1]
+
+        # Renumbers tasks if one is removed
+        tasks = [(i + 1, task[1]) for i, task in enumerate(tasks)]
+    else:
+        print("That is not a vaild input. Please try again.")
+        return
+    
+def view_tasks(tasks):
+    print("Here are your current tasks:")
+    print(tasks)
+
+
 def main():
     tasks = []
     menu ="""
@@ -16,36 +54,16 @@ def main():
 
         answer = input("What would you like to do?")
 
-        if answer == "Add Task" or answer == "1":
-            task = input("What task would you like to add?")
-            task_num = len(tasks) + 1
-            tasks.append((task_num, task))
-        elif answer == "Remove Task" or answer == "2":
+        if answer.lower() == "add task" or answer == "1":
+            add_task(tasks)
 
-            # Displays task neatly
-            for task in tasks:
-                print(task)
+        elif answer.lower() == "remove task" or answer == "2":
+            remove_task(tasks)
 
-            if not tasks:
-                print("Your to-do list is empty. There are no tasks to remove.")
-                continue
+        elif answer.lower() == "view list" or answer == "3":
+            view_tasks(tasks)
 
-            number = int(input("Which number would you like to remove?"))
-
-            # Checks to see if input is vaild & removes task
-            if (1 <= number <= len(tasks)):
-                del tasks[number - 1]
-
-                # Renumbers tasks if one is removed
-                tasks = [(i + 1, task[1]) for i, task in enumerate(tasks)]
-            else:
-                print("That is not a vaild input. Please try again.")
-                continue
-
-        elif answer == "View List" or answer == "3":
-            print("Here are your current tasks:")
-            print(tasks)
-        elif answer == "Exit" or answer == "4":
+        elif answer.lower() == "exit" or answer == "4":
             break
         else:
             print("That is not a valid input. Please try again.")
