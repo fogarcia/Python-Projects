@@ -1,6 +1,7 @@
 # To Do List
 
 def add_task(tasks):
+    # Add a task to the list
     task = input("What task would you like to add?")
 
     # Checks the task for empty space
