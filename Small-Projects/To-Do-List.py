@@ -2,15 +2,19 @@
 
 def add_task(tasks):
     # Add a task to the list
-    task = input("What task would you like to add?""\nType 'exit' to quit.\n")
+    answer = input("What task would you like to add?\nType 'exit' to quit.\n")
+
+    if answer.lower() == "exit":
+        print("Exiting...")
+        return
 
     # Checks the task for empty space
-    if task.strip() == "":
+    if answer.strip() == "":
         print("This is not a vaild response. Please try again.")
         return
 
     task_num = len(tasks) + 1
-    tasks.append((task_num, task))
+    tasks.append((task_num, answer))
 
 def remove_task(tasks):
 
@@ -24,8 +28,9 @@ def remove_task(tasks):
 
     while True:
 
-        answer = input("Which number would you like to remove?")
+        answer = input("Which number would you like to remove?\nType 'exit' to quit.\n")
 
+        # Checks to see if user wants to exit
         if answer.lower() == "exit":
             return
 
@@ -76,6 +81,7 @@ def main():
             view_tasks(tasks)
 
         elif answer.lower() == "exit" or answer == "4":
+            print("Exiting...")
             break
         else:
             print("That is not a valid input. Please try again.")
