@@ -14,6 +14,8 @@ from bs4 import BeautifulSoup
 
 def main():
     url = "https://books.toscrape.com"
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, "html.parser")
 
 if __name__ == "__main__":
     main()
