@@ -1,7 +1,7 @@
 # Python Projects
 
-Welcome to my **Python Projects Repository**!   
-This repository serves as a collection of my **past and recent Python projects**, showcasing my skills in automation and general scripting.
+Welcome to my Python Projects Repository!   
+This repository serves as a collection of my past and recent Python projects, showcasing my skills in automation and general scripting.
 
 ## About This Repository
 This directory contains various Python-based projects that I have worked on, covering:
