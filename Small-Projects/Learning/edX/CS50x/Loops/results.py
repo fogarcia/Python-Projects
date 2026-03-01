@@ -1,28 +1,16 @@
-results = ["Mario", "Luigi"]
-
-results.append("Princess")
-results.append("Yoshi")
-results.append("Koopa Troopa")
-results.append("Toad")
-
-print(results)
-
-results.append(["Bowser", "Donkey Kong Jr."])
-results.remove(["Bowser", "Donkey Kong Jr."])
-results.extend(["Bowser", "Donkey Kong Jr."])
-
-print(results)
+results = ["Mario", "Luigi", "Princess", "Yoshi", "Koopa Troopa", "Toad", "Bowser", "Bowser Jr."]
 
 results.remove("Bowser")
-
-print(results)
-
-results.insert(0, "Bowser")
-
-print(results)
-
-print(results.index("Mario"))
-
+results.insert(6, "Bowser")
 results.reverse()
+
+# results.append("Princess")
+# results.append("Yoshi")
+# results.append("Koopa Troopa")
+# results.append("Toad")
+
+# results.append(["Bowser", "Bowser Jr."])
+# results.remove(["Bowser", "Bowser Jr."])
+# results.extend(["Bowser", "Bowser Jr."])
 
 print(results)
