@@ -4,3 +4,7 @@ desktop.ini
 **/desktop.ini
 Thumbs.db
 **/Thumbs.db
+.venv/
+**/.venv/
+venv/
+**/venv/
