@@ -1,7 +1,7 @@
 def main():
     names = ["Mario", "Luigi", "Daisy", "Yoshi"]
-    for i in range(len(names)):
-        print(names[i])
+    for name in names:
+        print(write_letter(name, "Princess Peach"))
     # print(write_letter("Mario", "Princess Peach"))
     # print(write_letter("Luigi", "Princess Peach"))
     # print(write_letter("Daisy", "Princess Peach"))
