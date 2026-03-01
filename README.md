@@ -9,9 +9,10 @@ This directory contains various Python-based projects that I have worked on, cov
 - **Web Scraping & Data Processing** – Projects that extract and analyze web data.
 - **General Python Scripts** – Small utilities and problem-solving scripts.
 
-## edX
-Includes CS50 practice problems.
-- [edX work](./Small-Projects/edX/)
+## Learning
+Includes all relevant learning paths.
+- [edX](./Small-Projects/Learning/edX/)
+- [CS50x](./Small-Projects/Learning/edX/CS50x/)
 
 ## How to Use
 1. Clone the repository:
