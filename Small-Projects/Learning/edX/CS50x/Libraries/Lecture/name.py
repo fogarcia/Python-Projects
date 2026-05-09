@@ -8,6 +8,7 @@ if len(sys.argv) < 2:
 #     print("hello, my name is", sys.argv[1])
 
 # Print name tags
+# for arg in sys.argv[1:-1]:
 for arg in sys.argv[1:]:
     print("hello, my name is", arg)
 
