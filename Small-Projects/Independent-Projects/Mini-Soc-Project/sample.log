@@ -1,0 +1,9 @@
+May 10 10:14:22 INFO User john logged in successfully
+May 10 10:15:01 WARNING Disk usage at 85%
+May 10 10:16:45 ERROR Failed to connect to database
+May 10 10:17:10 INFO Scheduled backup completed
+May 10 10:18:03 unauthorized access attempt from 192.168.1.55
+May 10 10:19:11 DENIED login for admin from 10.0.0.5
+May 10 10:20:42 INFO Service restarted
+May 10 10:21:17 ERROR PowerShell execution detected
+May 10 10:22:09 WARNING Multiple failed login attempts
