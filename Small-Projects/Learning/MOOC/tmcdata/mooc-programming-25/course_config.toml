@@ -3,3 +3,151 @@ course = "mooc-programming-25"
 [exercises.part04-01_hello_visual_studio_code]
 id = 272896
 checksum = "914d5ec210005a85b2e209cb9fd3ecd1"
+
+[exercises.part04-02_line]
+id = 272891
+checksum = "8f3e2a6d3b05017ddb353b9dd30e2916"
+
+[exercises.part04-03_box_of_hashes]
+id = 272928
+checksum = "e2344900b9027bdeaf682e8317c05541"
+
+[exercises.part04-04_square_of_hashes]
+id = 272922
+checksum = "d9d8d94bed3d8fbbafa457dc3269c51a"
+
+[exercises.part04-05_square]
+id = 272898
+checksum = "1a9fdf76cc976fff65d9d3a00fa628ce"
+
+[exercises.part04-06_triangle]
+id = 272907
+checksum = "0504289dc919e12378bec88f1e9f6b29"
+
+[exercises.part04-07_shape]
+id = 272921
+checksum = "1d7b0fcc5dfca98367f4d35c00dabbe1"
+
+[exercises.part04-08_spruce]
+id = 272903
+checksum = "0d85eb4acfc6e0188f644070453938cc"
+
+[exercises.part04-09_greatest_number]
+id = 272918
+checksum = "0147b6c047ecd9ad57093aa7ec4cf7c4"
+
+[exercises.part04-10_same_characters]
+id = 272927
+checksum = "c04232a3b25b64d7ff41bfc4c06c0642"
+
+[exercises.part04-11_first_second_last]
+id = 272909
+checksum = "cd0025ff4dd5398dac11a58c46e114ad"
+
+[exercises.part04-12_change_value_of_item]
+id = 272919
+checksum = "f132e43b40eb73c19903861d29d1ad88"
+
+[exercises.part04-13_add_items_to_list]
+id = 272926
+checksum = "a8a3ff41e825a3c0e2e37e8211147da5"
+
+[exercises.part04-14_addition_and_removal]
+id = 272900
+checksum = "eadc8c732eceae6d18e5d3b59baeabfc"
+
+[exercises.part04-15_same_word_twice]
+id = 272908
+checksum = "fe47d1a7f039e320ab31315b54f41e25"
+
+[exercises.part04-16_list_twice]
+id = 272897
+checksum = "a5b8cd167834ad1a40afde3cc49771ae"
+
+[exercises.part04-17_length_of_list]
+id = 272893
+checksum = "93f01fb86508df8e1593faf8f75ddb75"
+
+[exercises.part04-18_mean]
+id = 272904
+checksum = "f0466f1991de9c3db00789f82b9a1c17"
+
+[exercises.part04-19_range_of_list]
+id = 272902
+checksum = "9bb5bd6457e892061b0e7f240cbf976e"
+
+[exercises.part04-20_star_studded]
+id = 272920
+checksum = "4bb5153b48c4ef5bce600247ef8e366f"
+
+[exercises.part04-21_negative_to_positive]
+id = 272925
+checksum = "239ad442ed484e0b5493180ff8c2f8d2"
+
+[exercises.part04-22_list_of_stars]
+id = 272901
+checksum = "6d19315499f7a28b0b0889da3009a649"
+
+[exercises.part04-23_anagrams]
+id = 272924
+checksum = "a53b024139b4793af0353f7536790425"
+
+[exercises.part04-24_palindromes]
+id = 272917
+checksum = "42e787c35ab5153a3b153f0c373cb568"
+
+[exercises.part04-25_sum_of_positives]
+id = 272915
+checksum = "1fe14ad751d7c70de452fae05886f914"
+
+[exercises.part04-26_even_numbers]
+id = 272913
+checksum = "ff94e35d6b677477a2b1608f5e22589a"
+
+[exercises.part04-27_sum_of_lists]
+id = 272914
+checksum = "8c3e1eb7e96e15b3c1c34cbc1c1a9c8c"
+
+[exercises.part04-28_distinct_numbers]
+id = 272906
+checksum = "1b44f7e6ba7f4821566fc3cd764d75fd"
+
+[exercises.part04-29_length_of_longest]
+id = 272892
+checksum = "f4ca93249d4d9b09252c6f047921f2d0"
+
+[exercises.part04-30_shortest_in_list]
+id = 272905
+checksum = "9a218c3de1ccf93a87d1784f188e3d1b"
+
+[exercises.part04-31_all_longest_in_list]
+id = 272899
+checksum = "43d2fd961e454effb6d300a8935647e9"
+
+[exercises.part04-32_integers_to_strings]
+id = 272894
+checksum = "6d55e564701bef4da6bbac21b55fe2e5"
+
+[exercises.part04-33_everything_reversed]
+id = 272911
+checksum = "573528e2be2c723f95960a10709a81d6"
+
+[exercises.part04-34_most_common_character]
+id = 272923
+checksum = "5bf87be93e37895897f6927d8f1985c1"
+
+[exercises.part04-35_no_vowels_allowed]
+id = 272910
+checksum = "3416dae84aea4bdbc7dcdca9b046f68f"
+
+[exercises.part04-36_no_shouting_allowed]
+id = 272912
+checksum = "52158dc06dd9a7caf635528379c8e2a7"
+
+[exercises.part04-37_neighbours_in_list]
+id = 272916
+checksum = "8be2192284a7742bd34787d73f717d2b"
+
+[exercises.part04-38_grade_statistics]
+id = 272895
+checksum = "e1984de59716303252ba1ec8fa02d90e"
