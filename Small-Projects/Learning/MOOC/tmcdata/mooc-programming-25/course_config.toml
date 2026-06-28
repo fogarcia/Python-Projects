@@ -151,3 +151,111 @@ checksum = "8be2192284a7742bd34787d73f717d2b"
 [exercises.part04-38_grade_statistics]
 id = 272895
 checksum = "e1984de59716303252ba1ec8fa02d90e"
+
+[exercises.part05-01_longest_string]
+id = 272859
+checksum = "1c8996da8c4581eceb4b51c9f1508fcf"
+
+[exercises.part05-02_number_of_elements]
+id = 272864
+checksum = "2377dc13f035bffd59c69797449776e2"
+
+[exercises.part05-03_go]
+id = 272877
+checksum = "f5bc87accd861e75b5d7483cd3b2b367"
+
+[exercises.part05-04_sudoku_row]
+id = 272860
+checksum = "9536873ba7986058a7eb65ee648fdf9f"
+
+[exercises.part05-05_sudoku_column]
+id = 272868
+checksum = "4204da9fb183be2862c2dc6f7388aa94"
+
+[exercises.part05-06_sudoku_block]
+id = 272867
+checksum = "44fc1b6f95c5c95439cd3b0672501ad9"
+
+[exercises.part05-07_sudoku_grid]
+id = 272865
+checksum = "b3e495e40530f0ce6f36f61f9189f7b2"
+
+[exercises.part05-08_items_multiplied_by_two]
+id = 272852
+checksum = "9b77963e77f9034db0d39021f97b2f57"
+
+[exercises.part05-09_remove_smallest]
+id = 272862
+checksum = "4d68b9c85e008a29f8fccd3f200af965"
+
+[exercises.part05-10_sudoku_print_and_add]
+id = 272878
+checksum = "c13363c0c8ae25499ac3fcb29c68db93"
+
+[exercises.part05-11_sudoku_add_to_copy]
+id = 272873
+checksum = "295d6053f4b7094174f0753d75326907"
+
+[exercises.part05-12_tic_tac_toe]
+id = 272856
+checksum = "94b169b82fd3f8aa2cdf44d4b9d2a921"
+
+[exercises.part05-13_transpose_matrix]
+id = 272876
+checksum = "c66720a19e1de6c84b589c8d6c96df51"
+
+[exercises.part05-14_times_ten]
+id = 272874
+checksum = "56be9c0a1aac7a7439db7ea22620577d"
+
+[exercises.part05-15_factorials]
+id = 272861
+checksum = "37990afadf65b45e3a69144a327ecb79"
+
+[exercises.part05-16_histogram]
+id = 272869
+checksum = "f23d5493419cb22983d9a443bf78ad8d"
+
+[exercises.part05-17_phone_book_v1]
+id = 272854
+checksum = "912044e0778ab65c260c0d769b475e36"
+
+[exercises.part05-18_phone_book_v2]
+id = 272857
+checksum = "e270f6176a06d86817b88bf187a7031c"
+
+[exercises.part05-19_invert_dictionary]
+id = 272855
+checksum = "fab1d4ce50545398faf500d73cc87f10"
+
+[exercises.part05-20_numbers_spelled_out]
+id = 272858
+checksum = "f791c8571242587a2a3f521d7144435d"
+
+[exercises.part05-21_movie_database]
+id = 272872
+checksum = "8ca07dc5c92259808cc8ddb1fbf436b7"
+
+[exercises.part05-22_find_movies]
+id = 272863
+checksum = "2c2cbc2866d3efb4fb2aff33dda57e27"
+
+[exercises.part05-23_create_tuple]
+id = 272871
+checksum = "0edb8e60ff8c5477eb4d9e057814532e"
+
+[exercises.part05-24_oldest_person]
+id = 272853
+checksum = "ebd05a5fd779a3b4526456cd39e65a01"
+
+[exercises.part05-25_older_people]
+id = 272866
+checksum = "e5b3b8e0e86020f48edf403686076536"
+
+[exercises.part05-26_student_database]
+id = 272875
+checksum = "772044136c79bbccfea1035e6bf2a7d1"
+
+[exercises.part05-27_letter_square]
+id = 272870
+checksum = "fdd20e535e47a623ee84e37724ad3693"
