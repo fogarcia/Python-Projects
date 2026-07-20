@@ -2,15 +2,24 @@
 
 def longest_series_of_neighbours(list):
 
-    neighbours = []
+    current_streak = 1
 
-    for i in list:
+    max_streak = 1
 
-        if list.index(i):
+    for i in range(1, len(list)):
 
-            ...
+        if list[i] - list[i-1] == 1 or list[i-1] - list[i] == 1:
 
+            current_streak += 1
 
+            if current_streak > max_streak:
+
+                max_streak = current_streak
+        else:
+
+            current_streak = 1
+            
+    return max_streak
 if __name__ == '__main__':
 
     #neightbors 1,2 : 7,6 : 5,6 : 3,4
